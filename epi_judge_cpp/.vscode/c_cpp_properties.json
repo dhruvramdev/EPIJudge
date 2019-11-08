@@ -4,7 +4,8 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/test_framework/**"
+                "${workspaceFolder}/test_framework/**",
+                "C:/MinGW/lib/gcc/mingw32/8.2.0/include/c++"
             ],
             "defines": [
                 "_DEBUG",
@@ -12,11 +13,10 @@
                 "_UNICODE",
                 "__MINGW32__"
             ],
-            "windowsSdkVersion": "10.0.17763.0",
-            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe",
+            "compilerPath": "C:/MinGW/bin/g++.exe",
             "cStandard": "c11",
             "cppStandard": "c++17",
-            "intelliSenseMode": "msvc-x64"
+            "intelliSenseMode": "${default}"
         }
     ],
     "version": 4
