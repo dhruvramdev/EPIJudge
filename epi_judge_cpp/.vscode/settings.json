@@ -80,5 +80,6 @@
         "xutility": "cpp",
         "bitset": "cpp",
         "*.tcc": "cpp"
-    }
+    },
+    "editor.detectIndentation": false
 }
